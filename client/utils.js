@@ -3,7 +3,7 @@ import { stdin as input, stdout as output } from 'process';
 import axios from 'axios';
 import { io } from "socket.io-client";
 
-const host = "localhost:2003";
+const host = "localhost:5055";
 const httpBaseUrl = `http://${host}/`;
 const wsBaseUrl = `ws://${host}`;
 
